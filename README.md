@@ -4,12 +4,14 @@ Site Design Engineering AutoCAD Cloud Storage Solution
 
 ## Project Structure
 
+### File Structure
 - `.gitignore`: Specifies intentionally untracked files to ignore.
 - `Setup`: Folder containing setup scripts and configuration files.
 - `main.tf`: Terraform file to manage infrastructure.
 - `providers.tf`: Terraform providers configuration file.
 
-`azurerm_storage_account "sitedesign-storage-account"`
+### Resources
+#### `azurerm_storage_account "sitedesign-storage-account"`
 This resource is used to create a new storage account in Azure. The parameters are:
 
 - `name`: The name of the storage account.
