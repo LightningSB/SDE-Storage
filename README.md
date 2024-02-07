@@ -32,7 +32,7 @@ This resource is used to create a new virtual network in Azure. The parameters a
 
 - `name`: The name of the virtual network.
 
-#### azurerm_subnet "sitedesign_subnet"`
+#### `azurerm_subnet "sitedesign_subnet"`
 This resource is used to create a new subnet within a specific virtual network. The parameters are:
 
 - `name`: The name of the subnet.
