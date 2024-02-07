@@ -20,19 +20,19 @@ This resource is used to create a new storage account in Azure. The parameters a
 - `account_tier`: The performance tier of the storage account. In this case, it is "Standard".
 - `account_replication_type`: The type of replication used for this storage account. In this case, it is "LRS" (Locally redundant storage).
 
-`azurerm_storage_share "sitedesign-share"`
+#### `azurerm_storage_share "sitedesign-share"`
 This resource is used to create a new storage share within the Azure Storage Account. The parameters are:
 
 - `name`: The name of the storage share.
 - `storage_account_name`: The name of the storage account in which to create the storage share.
 - `quota`: The maximum size of the storage share in GB.
 
-`azurerm_virtual_network "sitedesign_vnet"`
+#### `azurerm_virtual_network "sitedesign_vnet"`
 This resource is used to create a new virtual network in Azure. The parameters are:
 
 - `name`: The name of the virtual network.
 
-`azurerm_subnet "sitedesign_subnet"`
+#### azurerm_subnet "sitedesign_subnet"`
 This resource is used to create a new subnet within a specific virtual network. The parameters are:
 
 - `name`: The name of the subnet.
@@ -40,7 +40,7 @@ This resource is used to create a new subnet within a specific virtual network. 
 - `virtual_network_name`: The name of the virtual network in which to create the subnet.
 - `address_prefix`: The address prefix to use for the subnet.
 
-`azurerm_virtual_network_gateway "sitedesign_vpn_gateway"`
+#### `azurerm_virtual_network_gateway "sitedesign_vpn_gateway"`
 This resource is used to create a new virtual network gateway in Azure. The parameters are:
 
 - `name`: The name of the virtual network gateway.
